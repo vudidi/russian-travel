@@ -1,0 +1,8 @@
+.footer__copyright {
+  margin: 0;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  align-self: flex-end;
+}

@@ -11,3 +11,5 @@
 * Grid Layout
 * Медиазапросы
 * Методология БЭМ для классов - Nested БЭМ
+
+Сайт можно посмотреть по ссылке https://vudidi.github.io/russian-travel/

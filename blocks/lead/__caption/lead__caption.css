@@ -2,10 +2,21 @@
   max-width: 160px;
   min-height: 14px;
   margin: 8px 0 0;
-  font-family: Inter;
   color: #ffffff;
   font-size: 10px;
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 800px) {
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
 }

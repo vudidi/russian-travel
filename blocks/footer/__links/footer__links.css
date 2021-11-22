@@ -6,3 +6,11 @@
   justify-content: space-evenly;
   gap: 18px;
 }
+
+@media screen and (max-width: 735px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+  }
+}

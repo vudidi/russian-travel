@@ -2,3 +2,17 @@
   max-width: 1184px;
   margin: 0 48px 0;
 }
+
+@media screen and (max-width: 800px) {
+  .photo-grid {
+    max-width: 720px;
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .photo-grid {
+    max-width: 288px;
+    margin: 0 16px 0;
+  }
+}

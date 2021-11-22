@@ -1,6 +1,27 @@
 .places__cards {
+  max-width: 984px;
   list-style: none;
+  margin: 0 auto;
   padding: 0;
   display: grid;
   gap: 80px;
+}
+
+@media screen and (max-width: 1120px) {
+  .places__cards {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .places__cards {
+    max-width: 720px;
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places__cards {
+    max-width: 320px;
+  }
 }

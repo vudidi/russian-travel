@@ -3,7 +3,31 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);
-  grid-template-rows: repeat(auto-fit, 213px);
+  grid-template-columns: repeat(auto-fit, minmax(284px, auto));
+  grid-template-rows: repeat(auto-fit, minmax(213px, auto));
   gap: 16px;
+}
+
+@media screen and (max-width: 1120px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-rows: repeat(auto-fit, minmax(225px, auto));
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, minmax(352px, auto));
+    grid-template-rows: repeat(auto-fit, minmax(264px, auto));
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-rows: repeat(auto-fit, 216px);
+    gap: 12px;
+  }
 }

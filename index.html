@@ -12,10 +12,10 @@
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
-      <div class="header__links">
-        <a href="#" class="header__link">RU</a>
-        <a href="#" class="header__link">EN</a>
-      </div>
+      <ul class="header__links">
+        <li><a href="#" class="header__link header__link_active">RU</a></li>
+        <li><a href="#" class="header__link">EN</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
@@ -34,11 +34,11 @@
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </article>
         <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list intro__list_normal">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_normal">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_normal">16</span></li>
-          <li>Природных заповедников <span class="intro__list intro__list_normal">105</span></li>
-          <li>Аэропортов <span class="intro__list intro__list_normal">241</span></li>
+          <li>Часовых поясов <span class="intro__digits">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__digits">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__digits">16</span></li>
+          <li>Природных заповедников <span class="intro__digits">105</span></li>
+          <li>Аэропортов <span class="intro__digits">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -171,23 +171,15 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li>
-          <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
-        </li>
-        <li>
-          <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-        </li>
-        <li>
-          <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-        </li>
-        <li>
-          <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-        </li>
-        <li>
-          <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
-        </li>
-      </ul>
+      <nav>
+        <ul class="footer__links">
+          <li><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2021. Довгаль Вика</p>
     </footer>
   </div>

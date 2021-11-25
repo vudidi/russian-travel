@@ -13,14 +13,20 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1020px) {
   .places__cards {
-    max-width: 720px;
+    max-width: 700px;
     gap: 73px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 760px) {
+  .places__cards {
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .places__cards {
     max-width: 320px;
   }
